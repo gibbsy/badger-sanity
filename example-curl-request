@@ -1,0 +1,12 @@
+curl 'https://f8btv607.api.sanity.io/v1/data/mutate/production' \
+    -H 'Authorization: Bearer skUIolnHOuLjvC7wnOyWTRBCLQaDUHyOpm7CY6hypReDoOF0bh8PGNLJSBKlJflBaQiJwIpNN0nCeIXYl' \
+    -H 'Content-Type: application/json' \
+    --data-binary '{
+  "mutations": [
+    {
+      "delete": {
+        "query": "*[_type == 'productList']"
+      }
+    }
+  ]
+}'
