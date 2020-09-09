@@ -40,7 +40,7 @@ export default {
     {
       title: "Page intro",
       name: "intro",
-      type: "text",
+      type: "blockContent",
       description: "Text under the main header.",
       fieldset: "hero",
       validation: (Rule) => Rule.required(),
@@ -48,7 +48,7 @@ export default {
     {
       name: "growTxt",
       title: "How we grow",
-      type: "text",
+      type: "blockContent",
       description: "How we grow text content",
       fieldset: "grow",
       validation: (Rule) => Rule.required(),
@@ -69,7 +69,7 @@ export default {
     {
       name: "ctaTxt",
       title: "Order now",
-      type: "text",
+      type: "blockContent",
       description: "How we grow text content",
       fieldset: "cta",
       validation: (Rule) => Rule.required(),
